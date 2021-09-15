@@ -7,7 +7,7 @@ const Fecha = (d)=>{
     
     let dia = days[fecha.getDay()];
     
-    return <div>
+    return <div className='date'>
             {dia}    
         </div>
 

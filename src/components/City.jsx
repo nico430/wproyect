@@ -3,7 +3,7 @@ import React from 'react';
 const Ciudad = () => {
     return ( 
         <div className = 'city' >
-        Ciudad 
+            <span className='city_content'>Ciudad</span>
         </div>
     )
 }
