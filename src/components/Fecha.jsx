@@ -8,7 +8,7 @@ const Fecha = (d)=>{
     let dia = days[fecha.getDay()];
     
     return <div className='date'>
-            {dia}    
+            <span className="center_content">{dia}</span>    
         </div>
 
 }

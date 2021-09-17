@@ -5,11 +5,12 @@
 
 .main {
     height: 100vh;
+    padding: 1em;
     background: linear-gradient(rgb(135,0,255), rgb(1, 234, 255));
     text-align: center;
     display: grid;
     grid-template-columns: 1;
-    grid-template-rows: 1fr * 5;
+    grid-template-rows: 1/8fr * 5;
     gap: 1em;
 }
 
@@ -21,30 +22,34 @@
     display: flex;
 }
 
-.city_content{
-    margin: auto;
-}
-
 .temp {
     grid-row: 2;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 1em;
+    display: flex;
 }
 
 .week {
     grid-row: 3;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 1em;
+    display: flex;
 }
 
 .icon {
     grid-row: 4;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 1em;
+    display: flex;
 }
 
 .date{
     grid-row: 4;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 1em;
+    display: flex;
+}
+
+.center_content{
+    margin: auto;
 }
